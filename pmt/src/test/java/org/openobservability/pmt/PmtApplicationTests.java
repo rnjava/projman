@@ -1,10 +1,10 @@
-package org.openobservability.ppmtool;
+package org.openobservability.pmt;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AgilePpmToolApplicationTests {
+class PmtApplicationTests {
 
 	@Test
 	void contextLoads() {

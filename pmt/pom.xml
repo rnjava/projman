@@ -8,17 +8,21 @@
 		<version>2.2.3.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>org.openobservability.ppmtool</groupId>
-	<artifactId>AgilePPMTool</artifactId>
+	<groupId>org.openobservability</groupId>
+	<artifactId>pmt</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>AgilePPMTool</name>
-	<description>Backend of Project Management Tool</description>
+	<name>pmt</name>
+	<description>Project Management Tool</description>
 
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
